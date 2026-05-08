@@ -31,7 +31,7 @@ pip install "google-cloud-aiplatform>=1.108.0" "pydantic" "etils" \
 
 ## Notebooks
 
-### 1. `vertex_ai_prompt_optimizer.ipynb`
+### 1. [`vertex_ai_prompt_optimizer.ipynb`](vertex_ai_prompt_optimizer.ipynb)
 
 **Full walkthrough** — covers both optimization approaches end-to-end with an optional Gradio results viewer.
 
@@ -45,7 +45,7 @@ pip install "google-cloud-aiplatform>=1.108.0" "pydantic" "etils" \
 
 ---
 
-### 2. `vertex_ai_prompt_optimizer_long_prompt.ipynb`
+### 2. [`vertex_ai_prompt_optimizer_long_prompt.ipynb`](vertex_ai_prompt_optimizer_long_prompt.ipynb)
 
 **Long system instructions** — optimizes prompts that include substantial context, static examples, or documentation using the Data-Driven Optimizer only.
 
@@ -59,7 +59,7 @@ pip install "google-cloud-aiplatform>=1.108.0" "pydantic" "etils" \
 
 ---
 
-### 3. `vertex_ai_prompt_optimizer_ui.ipynb`
+### 3. [`vertex_ai_prompt_optimizer_ui.ipynb`](vertex_ai_prompt_optimizer_ui.ipynb)
 
 **Step-by-step UI** — a form-style notebook that walks through VAPO configuration and job launch without writing JSON manually.
 
@@ -80,9 +80,9 @@ pip install "google-cloud-aiplatform>=1.108.0" "pydantic" "etils" \
 
 | Notebook | Description |
 |---|---|
-| `get_started_with_vertex_ai_prompt_optimizer_custom_metric.ipynb` | Deploy a Cloud Run function as a custom eval scorer and plug it into VAPO via `custom_metric_name` / `custom_metric_cloud_function_name`. |
-| `get_started_with_vertex_ai_prompt_optimizer_multimodality.ipynb` | Optimize prompts for image+text tasks; sets `has_multimodal_inputs: true`. |
-| `get_started_with_vertex_ai_prompt_optimizer_tool_usage.ipynb` | Optimize system instructions for function-calling scenarios; uses `tool_call_valid`, `tool_name_match`, `tool_parameter_key_match` metrics. |
+| [`get_started_with_vertex_ai_prompt_optimizer_custom_metric.ipynb`](get_started_with_vertex_ai_prompt_optimizer_custom_metric.ipynb) | Deploy a Cloud Run function as a custom eval scorer and plug it into VAPO via `custom_metric_name` / `custom_metric_cloud_function_name`. |
+| [`get_started_with_vertex_ai_prompt_optimizer_multimodality.ipynb`](get_started_with_vertex_ai_prompt_optimizer_multimodality.ipynb) | Optimize prompts for image+text tasks; sets `has_multimodal_inputs: true`. |
+| [`get_started_with_vertex_ai_prompt_optimizer_tool_usage.ipynb`](get_started_with_vertex_ai_prompt_optimizer_tool_usage.ipynb) | Optimize system instructions for function-calling scenarios; uses `tool_call_valid`, `tool_name_match`, `tool_parameter_key_match` metrics. |
 
 ---
 
